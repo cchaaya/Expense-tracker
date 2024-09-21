@@ -30,7 +30,7 @@ selected = option_menu(
 )
 
 #import dataset:
-df = pd.read_csv("Military Expenditure.csv")
+df = pd.read_csv("Expense_tracker.csv")
 # Add a sidebar
 st.sidebar.title("Selector")
 
